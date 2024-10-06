@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#778899;
+}
+/* ..........heading...................... */
+.container h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: 3%;
+}
+/* ........................inputbox..................... */
+.inputbox{
+    position: absolute;
+    left: 45%;
+    padding: 5px;
+    margin: 5px;
+    scale: 1.5;
+    top: 20%;
+
+}
+.inputbox input{
+    color:  rgb(34, 73, 89);
+    background-color: #87919cd8;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.delete i{
+    display: inline-block;
+    position: absolute;
+    left: 61.5%;
+    top: 21%;
+    font-size: 25px;
+}
+/* .......................content......................... */
+.display{
+    position: absolute;
+    left: 27%;
+    top: 30%;
+    color: rgba(8, 30, 39, 0.442);
+    width: 750px;
+    height: 500px;
+    background-color: #d3d3d32e;
+    border-radius: 30px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid black;
+}

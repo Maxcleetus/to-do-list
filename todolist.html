@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="only screen and (min-width:1026px) and (max-width:1441px)" href="laptop1440.css">
+    <link rel="stylesheet" media="only screen and (min-width:770px) and (max-width:1025px)" href="laptop1024.css">
+    <link rel="stylesheet" media="only screen and (min-width:427px) and (max-width:769px)" href="tablet.css">
+    <link rel="stylesheet" media="only screen and (min-width:377px) and (max-width:426px)" href="phone425.css">
+    <link rel="stylesheet" media="only screen and (min-width:321px) and (max-width:376px) " href="phone375.css">
+    <link rel="stylesheet" media=" screen and (max-width: 320px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ...............container................... -->
+   <div class="container">
+        <h1>To Do List</h1>
+   </div> 
+   <!-- .....................inputbox.................... -->
+    <div class="inputbox">
+        <input  id="inputin"  type="text" maxlength="18">
+        <i onclick="adding23()" class="fa-solid fa-plus"></i>
+    </div>
+    <div class="delete">
+        <i onclick="deleting()" class="fa-solid fa-minus"></i>
+    </div>
+    <div class="display">
+        <h3 id="displaying"></h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
